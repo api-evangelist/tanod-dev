@@ -64,5 +64,60 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-tanod-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://tanod.dev/
+Tanod provides a pay‑per‑call MCP server and HTTP API offering over 300 tools for AI agents, including security checks, market data, aviation information, document conversion, and more. It operates without signup, offering a free daily tier and paid usage via USDC on multiple blockchains. The service is run by an AI and aims to simplify integration of diverse data and utilities for developers.
+
+**Areas:** AI · MCP · Tools · Finance · Monitoring
+
+## tanod-dev on APIs.io
+
+Everything profiled for tanod-dev is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/tanod-dev/](https://apis.io/providers/tanod-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (14)
+
+- tanod-dev Agentscan API — agentscan, the agent-economy index. Query, history, export and bulk access to a daily cross-registry index of x402 endpoints and MCP servers (aggregated…
+- tanod-dev Chainpeek API — chainpeek, the on-chain read. Read-only ENS resolution and records, EVM calldata and event-log decoding, ERC-20 token metadata, proxy detection,…
+- tanod-dev Dnspeek API — dnspeek, the domain, email and IP lookups. Domain inspection (DNS, SPF/DMARC/DKIM/MTA-STS, TLS cert), RDAP (whois) registration lookup for a domain, IP or…
+- tanod-dev Findpeek API — findpeek, the web search. Pay-per-call web search over an independent index (Mojeek): title, URL and snippet per result. Results are third-party web…
+- tanod-dev Imagepeek API — imagepeek, the image toolkit. Resize, convert (PNG, JPEG, WebP, GIF, TIFF, BMP, ICO, AVIF), compress, crop, rotate, thumbnail, read or strip metadata (EXIF,…
+- tanod-dev Mlpeek API — mlpeek, the local ML inference. Text embeddings (English or multilingual, 384 dimensions), multimodal embeddings (texts and images in one 768-dimension…
+- tanod-dev Pactlint API — pactlint, the contract scan. Static security analysis of Solidity source or a verified contract on Ethereum or Base.
+- tanod-dev Pdfpeek API — pdfpeek, the PDF toolkit. Merge, split, extract or remove pages, rotate, compress, convert pages to images and images to PDF, watermark, number pages,…
+- tanod-dev Sitepeek API — sitepeek, the web page, document reader. Fetch a public web page to clean Markdown (static or JS-rendered) or a PNG screenshot, extract the text of a PDF,…
+- tanod-dev Skypeek API — skypeek, the aviation and space data. Aviation weather (METAR and TAF, raw and decoded), airport lookup and great-circle distances, space weather, aurora…
+- tanod-dev Toolsniff API — toolsniff, the skill, MCP server scanner. Static security scan of an AI-agent skill or MCP server package before it is installed.
+- tanod-dev Txpeek API — txpeek, the pre-transaction check. Risk verdict for an address in about a second, before an agent sends a transaction, approves or buys.
+- tanod-dev Utilpeek API — utilpeek, the data and text utilities. Everyday deterministic utilities: ECB foreign-exchange reference rates, SEC EDGAR company lookups (profile, latest…
+- tanod-dev Weatherpeek API — weatherpeek, the weather forecast. Hourly weather forecast (up to 48 h) for coordinates or a city name: temperature, humidity, wind, cloud, precipitation.…
+
+_These APIs get their own pages on APIs.io at the next catalog build, and this README is re-rendered with links when they do._
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://tanod.dev/)
+- [Documentation](https://docs.tanod.dev/)
+- [API reference](https://tanod.dev/openapi.json)
+- [Pricing](https://tanod.dev/pricing/)
+- [Support](https://tanod.dev/support/)
+- [Changelog](https://tanod.dev/changelog/)
+- [Terms of service](https://tanod.dev/terms/)
+- [Privacy policy](https://tanod.dev/privacy/)
+- [GitHub](https://github.com/tanod)
+- [Status](https://tanod.dev/status)
+
+## API Evangelist rating
+
+Not yet rated. See [apis.io/providers/tanod-dev/](https://apis.io/providers/tanod-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for tanod-dev: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/tanod-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
