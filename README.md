@@ -74,22 +74,62 @@ Everything profiled for tanod-dev is published on APIs.io rather than in this re
 
 ### APIs (14)
 
-- tanod-dev Agentscan API — agentscan, the agent-economy index. Query, history, export and bulk access to a daily cross-registry index of x402 endpoints and MCP servers (aggregated…
-- tanod-dev Chainpeek API — chainpeek, the on-chain read. Read-only ENS resolution and records, EVM calldata and event-log decoding, ERC-20 token metadata, proxy detection,…
-- tanod-dev Dnspeek API — dnspeek, the domain, email and IP lookups. Domain inspection (DNS, SPF/DMARC/DKIM/MTA-STS, TLS cert), RDAP (whois) registration lookup for a domain, IP or…
-- tanod-dev Findpeek API — findpeek, the web search. Pay-per-call web search over an independent index (Mojeek): title, URL and snippet per result. Results are third-party web…
-- tanod-dev Imagepeek API — imagepeek, the image toolkit. Resize, convert (PNG, JPEG, WebP, GIF, TIFF, BMP, ICO, AVIF), compress, crop, rotate, thumbnail, read or strip metadata (EXIF,…
-- tanod-dev Mlpeek API — mlpeek, the local ML inference. Text embeddings (English or multilingual, 384 dimensions), multimodal embeddings (texts and images in one 768-dimension…
-- tanod-dev Pactlint API — pactlint, the contract scan. Static security analysis of Solidity source or a verified contract on Ethereum or Base.
-- tanod-dev Pdfpeek API — pdfpeek, the PDF toolkit. Merge, split, extract or remove pages, rotate, compress, convert pages to images and images to PDF, watermark, number pages,…
-- tanod-dev Sitepeek API — sitepeek, the web page, document reader. Fetch a public web page to clean Markdown (static or JS-rendered) or a PNG screenshot, extract the text of a PDF,…
-- tanod-dev Skypeek API — skypeek, the aviation and space data. Aviation weather (METAR and TAF, raw and decoded), airport lookup and great-circle distances, space weather, aurora…
-- tanod-dev Toolsniff API — toolsniff, the skill, MCP server scanner. Static security scan of an AI-agent skill or MCP server package before it is installed.
-- tanod-dev Txpeek API — txpeek, the pre-transaction check. Risk verdict for an address in about a second, before an agent sends a transaction, approves or buys.
-- tanod-dev Utilpeek API — utilpeek, the data and text utilities. Everyday deterministic utilities: ECB foreign-exchange reference rates, SEC EDGAR company lookups (profile, latest…
-- tanod-dev Weatherpeek API — weatherpeek, the weather forecast. Hourly weather forecast (up to 48 h) for coordinates or a city name: temperature, humidity, wind, cloud, precipitation.…
+- [tanod-dev Agentscan API](https://apis.io/apis/tanod-dev/tanod-dev-agentscan-api/) — agentscan, the agent-economy index. Query, history, export and bulk access to a daily cross-registry index of x402 endpoints and MCP servers (aggregated…
+- [tanod-dev Chainpeek API](https://apis.io/apis/tanod-dev/tanod-dev-chainpeek-api/) — chainpeek, the on-chain read. Read-only ENS resolution and records, EVM calldata and event-log decoding, ERC-20 token metadata, proxy detection,…
+- [tanod-dev Dnspeek API](https://apis.io/apis/tanod-dev/tanod-dev-dnspeek-api/) — dnspeek, the domain, email and IP lookups. Domain inspection (DNS, SPF/DMARC/DKIM/MTA-STS, TLS cert), RDAP (whois) registration lookup for a domain, IP or…
+- [tanod-dev Findpeek API](https://apis.io/apis/tanod-dev/tanod-dev-findpeek-api/) — findpeek, the web search. Pay-per-call web search over an independent index (Mojeek): title, URL and snippet per result. Results are third-party web…
+- [tanod-dev Imagepeek API](https://apis.io/apis/tanod-dev/tanod-dev-imagepeek-api/) — imagepeek, the image toolkit. Resize, convert (PNG, JPEG, WebP, GIF, TIFF, BMP, ICO, AVIF), compress, crop, rotate, thumbnail, read or strip metadata (EXIF,…
+- [tanod-dev Mlpeek API](https://apis.io/apis/tanod-dev/tanod-dev-mlpeek-api/) — mlpeek, the local ML inference. Text embeddings (English or multilingual, 384 dimensions), multimodal embeddings (texts and images in one 768-dimension…
+- [tanod-dev Pactlint API](https://apis.io/apis/tanod-dev/tanod-dev-pactlint-api/) — pactlint, the contract scan. Static security analysis of Solidity source or a verified contract on Ethereum or Base.
+- [tanod-dev Pdfpeek API](https://apis.io/apis/tanod-dev/tanod-dev-pdfpeek-api/) — pdfpeek, the PDF toolkit. Merge, split, extract or remove pages, rotate, compress, convert pages to images and images to PDF, watermark, number pages,…
+- [tanod-dev Sitepeek API](https://apis.io/apis/tanod-dev/tanod-dev-sitepeek-api/) — sitepeek, the web page, document reader. Fetch a public web page to clean Markdown (static or JS-rendered) or a PNG screenshot, extract the text of a PDF,…
+- [tanod-dev Skypeek API](https://apis.io/apis/tanod-dev/tanod-dev-skypeek-api/) — skypeek, the aviation and space data. Aviation weather (METAR and TAF, raw and decoded), airport lookup and great-circle distances, space weather, aurora…
+- [tanod-dev Toolsniff API](https://apis.io/apis/tanod-dev/tanod-dev-toolsniff-api/) — toolsniff, the skill, MCP server scanner. Static security scan of an AI-agent skill or MCP server package before it is installed.
+- [tanod-dev Txpeek API](https://apis.io/apis/tanod-dev/tanod-dev-txpeek-api/) — txpeek, the pre-transaction check. Risk verdict for an address in about a second, before an agent sends a transaction, approves or buys.
+- [tanod-dev Utilpeek API](https://apis.io/apis/tanod-dev/tanod-dev-utilpeek-api/) — utilpeek, the data and text utilities. Everyday deterministic utilities: ECB foreign-exchange reference rates, SEC EDGAR company lookups (profile, latest…
+- [tanod-dev Weatherpeek API](https://apis.io/apis/tanod-dev/tanod-dev-weatherpeek-api/) — weatherpeek, the weather forecast. Hourly weather forecast (up to 48 h) for coordinates or a city name: temperature, humidity, wind, cloud, precipitation.…
 
-_These APIs get their own pages on APIs.io at the next catalog build, and this README is re-rendered with links when they do._
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Tanod Dev Agentic Access](https://apis.io/agentic-access/tanod-dev/tanod-dev-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [tanod-dev API Rules](https://apis.io/rules/tanod-dev/tanod-dev-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Tanod Dev Authentication](https://apis.io/security/tanod-dev/tanod-dev-authentication/)
+- [Tanod Dev Domain Security](https://apis.io/security/tanod-dev/tanod-dev-domain-security/)
+- [Tanod Dev Vulnerability Disclosure](https://apis.io/security/tanod-dev/tanod-dev-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Tanod Dev Scopes](https://apis.io/scopes/tanod-dev/tanod-dev-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Tanod Dev Plans Pricing](https://apis.io/plans/tanod-dev/tanod-dev-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Tanod Dev Rate Limits](https://apis.io/rate-limits/tanod-dev/tanod-dev-rate-limits/)
 
 ## Where to find this API
 
@@ -108,7 +148,46 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/tanod-dev/](https://apis.io/providers/tanod-dev/).
+**Kin Score 50.1** — developing · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 70.0 |
+| Contract quality | 46.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 47.4 |
+| Developer ergonomics | 35.0 |
+| Access clarity | 31.6 |
+
+**Agent readiness 38.3** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/tanod-dev/](https://apis.io/providers/tanod-dev/).
 
 ## How this profile is made
 
